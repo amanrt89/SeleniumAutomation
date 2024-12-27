@@ -15,9 +15,10 @@ public class PopUp {
 		driver.findElement(By.xpath("//button[@class='bg-green-500 text-white px-4 py-2 rounded']")).click();
 		Alert alt=driver.switchTo().alert();
 		Thread.sleep(2000);
-	alt.sendKeys("Hello I am Aman");
-	alt.accept();
-		
+
+		alt.sendKeys("Hello I am Aman");
+		alt.accept();
+
 	}
 
 }
