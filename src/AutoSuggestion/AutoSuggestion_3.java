@@ -17,7 +17,7 @@ public class AutoSuggestion_3 {
        Thread.sleep(2000);
        
        List<WebElement> w=driver.findElements(By.xpath("//ul[@class='_1sFryS _2x2Mmc _3ofZy1']//li//div[@class='YGcVZO _2VHNef']"));
-	String e="oneplus mobile 5g";
+	String e="oneplus nord 4";
 	
       for(WebElement x:w)
       {

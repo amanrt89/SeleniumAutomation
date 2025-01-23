@@ -17,7 +17,8 @@ public class HandleCookies {
 	       
 	       for(Cookie c:Allcookie)
 	       {
-	    	   System.out.println(c);
+	    	   System.out.println(c.getName()+"="+c.getValue());
+	    	   
 	       }
 	       
 	       System.out.println(Allcookie.size());

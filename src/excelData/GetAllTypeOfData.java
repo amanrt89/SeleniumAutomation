@@ -25,6 +25,7 @@ public class GetAllTypeOfData
 		 for(int i=0;i<=rowsize;i++)
 		 {
 			 int cellsize=sh.getRow(i).getLastCellNum()-1;
+			 
 			 for(int j=0;j<=cellsize;j++)
 			 {
 				 Cell s1 = sh.getRow(i).getCell(j);//get cell
